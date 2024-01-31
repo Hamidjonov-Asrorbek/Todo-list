@@ -1,0 +1,119 @@
+
+.hero-container {
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 23, 71, 0.15);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 79px;
+    padding-bottom: 41px;
+}
+.title {
+    color: #11175E;
+    font-family: "Rubik";
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+}
+.form{
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 170px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 24px;
+}
+.form__input {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 7px 20px 20px;
+    border: 0.1px solid #cec9c9;
+    margin-bottom: 48px;
+    border-radius: 8px;
+}
+.form__input-text {
+    border: none;
+    width: 100%;
+    max-width: 470px;
+    outline: none;
+    margin-right: 20px;
+}
+.form__btn {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: 0.18px;
+    border-radius: 4px;
+    background: #2D70FD;
+    border: 1px solid var(--Mavi, #2D70FD);
+    padding: 12px 24px;
+    transition: all 0.4s linear;
+}
+.form__btn:hover{
+    background-color: #000;
+    color: #2D70FD;
+}
+.todo__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 31px 0 20px;
+}
+.todo__item {
+    display: flex;
+    align-items: center;
+
+}
+.check {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check:hover{
+    fill: #00D8A7;
+}
+.list__decs {
+    color: #001747;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%; /* 17.6px */
+    letter-spacing: 0.16px;
+    margin-right: auto;
+}
+.list__decs:hover{
+    color: #2D70FD;
+    cursor: pointer;
+}
+.list__decs:active{
+    color: #8F98A8;
+}
+.delete{
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.delete:hover{
+    transform: scale(1.2);
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 600px;
+}
+.items__desc {
+    color: #B1BACB;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%; /* 17.6px */
+    letter-spacing: 0.16px;
+}
